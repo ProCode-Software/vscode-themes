@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch",
+			"group": "build",
+			"problemMatcher": [],
+			"isBackground": true,
+			"label": "Watch",
+			"detail": "node ./scripts/copyVars.js"
+		},
+		{
+			"type": "npm",
+			"script": "package",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Package",
+			"detail": "vsce package"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "lib": ["ESNext"],
+    "module": "NodeNext"
+  },
+  "exclude": ["samples"]
+}

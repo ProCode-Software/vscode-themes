@@ -1,0 +1,57 @@
+{
+  "name": "plastic-light",
+  "displayName": "Plastic Light",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A light version of the Plastic theme by Will Stone",
+  "categories": [
+    "Themes"
+  ],
+  "homepage": "https://github.com/ProCode-Software/Plastic-Light",
+  "bugs": {
+    "url": "https://github.com/ProCode-Software/Plastic-Light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProCode-Software/Plastic-Light"
+  },
+  "author": "ProCode Software",
+  "publisher": "procode-software",
+  "type": "module",
+  "scripts": {
+    "build-theme": "tsx ./src/index.ts",
+    "prerelease": "npm run generate-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Plastic Light",
+        "uiTheme": "vs",
+        "path": "./themes/main.json"
+      },
+      {
+        "label": "Plastic Light (Deprioritized Punctuation)",
+        "uiTheme": "vs",
+        "path": "./themes/deprioritised-punctuation.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/tinycolor2": "^1.4.6",
+    "@will-stone/prettier-config": "^8.0.1",
+    "prettier": "^3.4.2",
+    "tinycolor2": "^1.6.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "vscode": "^1.80.0"
+  },
+  "icon": "images/icon.png",
+  "plastic": {
+    "title": "VSCode",
+    "appLink": "https://code.visualstudio.com/"
+  }
+}

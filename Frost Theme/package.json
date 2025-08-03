@@ -1,0 +1,29 @@
+{
+    "name": "frost-theme",
+    "displayName": "Frost Theme",
+    "description": "",
+    "version": "0.0.1",
+    "author": "ProCode Software",
+    "publisher": "procode-software",
+    "license": "MIT",
+    "repository": "https://github.com/ProCode-Software/vscode-frost",
+    "scripts": {
+        "watch": "node ./scripts/copyVars.js",
+        "package": "vsce package"
+    },
+    "engines": {
+        "vscode": "^1.95.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Frost Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/frost-dark-color-theme.json"
+            }
+        ]
+    }
+}

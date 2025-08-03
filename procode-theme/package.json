@@ -1,0 +1,35 @@
+{
+    "name": "procode-theme",
+    "displayName": "ProCode Theme",
+    "description": "",
+    "version": "0.0.1",
+    "scripts": {
+        "watch": "node ./scripts/copyVars.js"
+    },
+    "engines": {
+        "vscode": "^1.95.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "dependencies": {
+        "@proicons/webfont": "latest"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "ProCode Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/procode-dark-color-theme.json",
+                "id": "procode-dark"
+            }
+        ],
+        "productIconThemes": [
+            {
+                "id": "proicons",
+                "label": "ProIcons",
+                "path": "./producticons/proicons-product-icon-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "$schema": "../misc/palette.schema.json",
+    "bunker": "#e5e9ee",
+    "cadetBlue": "#64676d",
+    "cornflowerBlue": "#0080e9",
+    "crail": "#BE5046",
+    "dodgerBlue": "#0a71df",
+    "fountainBlue": "#12a3b6",
+    "ghost": "#363a43",
+    "harvestGold": "#d28902",
+    "lavender": "#921de6",
+    "olivine": "#57ab1b",
+    "robRoy": "#d5ac09",
+    "shark": "#ffffff",
+    "shuttleGray": "#707782",
+    "sunglo": "#e1091b",
+    "sungloDefault": "#fb606d",
+    "transparent": "#00000000",
+    "valencia": "#D74E42",
+    "whiskey": "#be6614",
+    "white": "#21252B",
+    "woodsmoke": "#f6f7fb"
+}

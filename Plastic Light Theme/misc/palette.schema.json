@@ -1,0 +1,10 @@
+{
+    "properties": {
+        "$schema": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": {
+        "format": "color-hex"
+    }
+}
