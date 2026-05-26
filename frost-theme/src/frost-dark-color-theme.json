@@ -1,5 +1,4 @@
 {
-	"$schema": "./schema.json",
 	"name": "Frost Dark",
 	"semanticHighlighting": true,
 	"variables": {
@@ -297,6 +296,7 @@
 		"symbolIcon.booleanForeground": "--t-bool",
 		"symbolIcon.classForeground": "--t-class",
 		"symbolIcon.constantForeground": "--t-const",
+		"symbolIcon.constructorForeground": "--c-magenta",
 		"symbolIcon.enumeratorForeground": "--c-orange",
 		"symbolIcon.fieldForeground": "--ac-fg-0",
 		"symbolIcon.functionForeground": "--t-function",

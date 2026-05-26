@@ -1,0 +1,29 @@
+{
+    "name": "procode-vscode-themes",
+    "description": "VSCode themes by ProCode-Software",
+    "keywords": [
+        "color-theme",
+        "theme",
+        "vscode",
+        "vscode-theme"
+    ],
+    "license": "MIT",
+    "author": "",
+    "workspaces": [
+        "./*"
+    ],
+    "scripts": {
+        "format": "oxfmt"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.9.1",
+        "oxfmt": "^0.51.0",
+        "vsxtools": "catalog:"
+    },
+    "catalog": {
+        "vsxtools": "latest"
+    },
+    "trustedDependencies": [
+        "@vscode/vsce-sign"
+    ]
+}

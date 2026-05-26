@@ -4,7 +4,8 @@
     "description": "",
     "version": "0.0.1",
     "scripts": {
-        "watch": "node ./scripts/copyVars.js"
+        "watch": "vsxtools run --watch",
+        "build": "vsxtools run"
     },
     "engines": {
         "vscode": "^1.95.0"
@@ -12,8 +13,9 @@
     "categories": [
         "Themes"
     ],
-    "dependencies": {
-        "@proicons/webfont": "latest"
+    "devDependencies": {
+        "@proicons/webfont": "latest",
+        "vsxtools": "catalog:"
     },
     "contributes": {
         "themes": [

@@ -15,5 +15,11 @@ Frost:
 Plastic Light:
 ![Plastic Light preview](./plastic-light-theme/screenshot.png)
 
+## Building
+1. Clone the repo
+```bash
+git clone https://github.com/ProCode-Software/vscode-themes.git
+```
+
 ## License
 All extensions are licensed under the [MIT License](./LICENSE).

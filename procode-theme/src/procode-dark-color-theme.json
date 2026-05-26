@@ -1,5 +1,4 @@
 {
-    "$schema": "./schema.json",
     "name": "ProCode Theme",
     "semanticHighlighting": true,
     "variables": {
