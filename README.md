@@ -9,6 +9,7 @@ A collection of Visual Studio Code themes I created
 - [**🎨 ProCode Theme**](./procode-theme/) - A color theme inspired by Plastic and product icon theme using [ProIcons](https://github.com/ProCode-Software/proicons) (in development)
 
 ## Screenshots
+
 Frost:
 ![Frost preview](./frost-theme/images/preview.png)
 
@@ -16,10 +17,13 @@ Plastic Light:
 ![Plastic Light preview](./plastic-light-theme/screenshot.png)
 
 ## Building
+
 1. Clone the repo
+
 ```bash
 git clone https://github.com/ProCode-Software/vscode-themes.git
 ```
 
 ## License
+
 All extensions are licensed under the [MIT License](./LICENSE).

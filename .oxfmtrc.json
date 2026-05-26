@@ -1,13 +1,13 @@
 {
-  "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "arrowParens": "avoid",
-  "objectWrap": "collapse",
-  "printWidth": 90,
-  "semi": false,
-  "singleQuote": true,
-  "tabWidth": 4,
-  "trailingComma": "es5",
-  "useTabs": false,
-  "sortPackageJson": false,
-  "ignorePatterns": []
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "arrowParens": "avoid",
+    "objectWrap": "collapse",
+    "printWidth": 90,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "sortPackageJson": false,
+    "ignorePatterns": []
 }

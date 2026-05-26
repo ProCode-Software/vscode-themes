@@ -3,6 +3,7 @@
 Light version of the [Plastic](https://marketplace.visualstudio.com/items?itemName=will-stone.plastic) theme by Will Stone. Full credit to them for the original color palette.
 
 ## Features
+
 - Simple and small color palette
 - Additional theme with deprioritized punctuation
 
