@@ -17,13 +17,14 @@
     },
     "devDependencies": {
         "@vscode/vsce": "^3.9.1",
-        "oxfmt": "^0.51.0",
-        "vsxtools": "^0.0.2"
+        "oxfmt": "^0.53.0",
+        "vsxtools": "latest"
     },
     "catalog": {
         "vsxtools": "latest"
     },
     "trustedDependencies": [
-        "@vscode/vsce-sign"
+        "@vscode/vsce-sign",
+        "vsxtools"
     ]
 }
