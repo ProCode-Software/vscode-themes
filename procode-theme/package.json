@@ -5,7 +5,8 @@
     "version": "0.0.1",
     "scripts": {
         "watch": "vsxtools run --watch",
-        "build": "vsxtools run"
+        "build": "vsxtools run",
+        "package": "vsxtools pack"
     },
     "engines": {
         "vscode": "^1.95.0"
