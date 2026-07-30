@@ -1,8 +1,8 @@
 {
     "name": "frost-theme",
     "displayName": "Frost Theme",
-    "description": "",
-    "version": "0.0.1",
+    "description": "An arctic, light-bluish, low-contrast VSCode theme",
+    "version": "0.1.0",
     "author": "ProCode Software",
     "publisher": "procode-software",
     "license": "MIT",
