@@ -1,6 +1,6 @@
 # Frost Theme
 
-An arctic, light-bluish, low-contrast VSCode theme. Ported from VSCode.
+An arctic, light-bluish, low-contrast VSCode theme. Ported from VSCode using https://github.com/alanisme/vscode-themes-for-zed.
 
 Inspired by [Nord](https://zed.dev/extensions/nord)
 
