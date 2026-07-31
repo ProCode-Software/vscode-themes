@@ -3,5 +3,5 @@ name = "Frost"
 version = "0.1.0"
 schema_version = 1
 authors = ["ProCode Software"]
-description = "An arctic, light-bluish, low-contrast VSCode theme"
-repository = "https://github.com/your-name/my-zed-extension"
+description = "An arctic, light-bluish, low-contrast theme"
+repository = "https://github.com/ProCode-Software/vscode-themes"
