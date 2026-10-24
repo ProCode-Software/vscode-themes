@@ -16,7 +16,7 @@
         "format": "oxfmt"
     },
     "devDependencies": {
-        "@vscode/vsce": "^3.9.1",
+        "@vscode/vsce": "^3.9.2",
         "oxfmt": "^0.53.0",
         "vsxtools": "latest"
     },
